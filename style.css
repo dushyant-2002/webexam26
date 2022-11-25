@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.2s linear;
+}
+#navbar {
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.name h1{
+    color: white;
+}
+.h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40vw;
+}
+#logo img{
+    height: 10vh;
+}
+#navbar ul li{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin: 1.3rem;
+    color: white;
+}
+.nav1{
+    display: flex;
+    position: relative;
+    left: 12vw;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a:hover{
+    color: greenyellow;
+}
+/* HOME */
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background: url('/home.jpg')no-repeat center center/cover;
+    }
+.hcontent{
+    position: relative;
+    left: 50vw;
+    color: white;
+}
+#hhead{
+    font-size: 4rem;
+    font-weight: 500;
+    width: 60vw;
+    height: 20vh;
+}
+#btn{
+    display: inline;
+    position: relative;
+    top: 11vh;
+    border: 2px solid black;
+    padding: 18px 40px;
+    border-radius: 30px;
+    background-color: white;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    cursor: pointer;
+    padding: 21px 50px;
+}
+/* PAGE2 */
+#home2{
+    width: 100vw;
+    height: 70vh;
+}
+
+#home2 div{
+    /* border: 2px solid red; */
+}
+#heading{
+    display: inline-flex;
+    font-size: 2rem;
+    text-align: center;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+.container div{
+    width: 25vw;
+    text-align: center;
+}
+.container div h1{
+    position: relative;
+    top: 10px;
+}
+.container div p{
+    position: relative;
+    top: 35px;
+}
+#home3{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(224, 9, 240);
+}
+#home3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+/* page4 */
+#page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+/* PAGE5 */
+#page5{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    background-color: rgb(209, 9, 219);
+}
+#page5 div p{
+    font-size: 4rem;
+}
+#page5 div a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    padding: 20px 50px;
+    border-radius: 40px;
+    background-color: white;
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+}
+#page5 div a:hover{
+    cursor: pointer;
+    padding: 21px 50px;
+}
+footer{
+    height: 40vh;
+    background-color: black;
+}
+
